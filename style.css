@@ -1,0 +1,23 @@
+:root{
+--bg: #AFD468 ;
+--accent: #00FF8C ;
+--text: #00FFEA ;
+--panel: #00B3FF ;
+--retro: #04FF00 ;
+font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;margin: 0;
+}
+body{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background: radial-gradient(circle at 20% 20%, rgba(72, 0, 255, 100),transparent 100%),
+   linear-gradient(90deg,rgba(72, 0, 255, 1) 0%, rgba(103, 132, 135, 1) 33%, rgba(53, 79, 5, 1) 100%, rgba(219, 46, 46, 1) 59%);
+   color: var(--retro)
+}
+.container{width: 900px;
+max-width: 95%;
+padding: 20px;}
+h1{font-size: 50px;}
